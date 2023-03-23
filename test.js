@@ -50,11 +50,3 @@ export const guns = [
     category: "Shotgun",
   },
 ];
-
-const obj = {
-  name: "rokib",
-  job: "nothing",
-};
-obj.play = "pingpong";
-const newObj = { ...obj, job: "job", hobby: "play" };
-console.log(newObj);
