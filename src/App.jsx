@@ -5,6 +5,8 @@ import Person from './components/NestedComponent/Person';
 import { guns } from '../test';
 import Basic from './components/Events/Basic';
 import ArrayExample from './components/Events/ArrayExample';
+import ObjectExample from './components/Events/ObjectExample';
+import UseEffectExample from './components/Events/UseEffectExample'
 
 const App = () => {
 
@@ -23,8 +25,12 @@ const App = () => {
       </div> */}
 
       {/* <Basic /> */}
-      
-      <ArrayExample />
+
+      {/* <ArrayExample /> */}
+
+      {/* <ObjectExample /> */}
+
+      <UseEffectExample />
     </>
   );
 };
